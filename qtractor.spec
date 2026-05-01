@@ -18,10 +18,10 @@ BuildRequires:		cmake(Qt6LinguistTools)
 BuildRequires:		cmake(Qt6Svg)
 BuildRequires:		cmake(Qt6Widgets)
 BuildRequires:		cmake(Qt6Xml)
-BuildRequires:		clap-devel
 BuildRequires:		ladspa-devel
 BuildRequires:		pkgconfig(alsa)
 BuildRequires:		pkgconfig(aubio)
+BuildRequires:		pkgconfig(clap)
 BuildRequires:		pkgconfig(dssi)
 BuildRequires:		pkgconfig(gtk+-2.0)
 BuildRequires:		pkgconfig(gtkmm-2.4)
