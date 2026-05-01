@@ -1,6 +1,6 @@
 Summary:		An Audio/MIDI multi-track sequencer
 Name:	qtractor
-Version:		1.5.8
+Version:		1.6.0
 Release:		1
 License:		GPLv2+
 Group:	Sound
@@ -9,6 +9,7 @@ Source0:	https://sourceforge.net/projects/qtractor/files/qtractor/%{version}/%{n
 BuildRequires:		cmake >= 3.17
 BuildRequires:		desktop-file-utils
 BuildRequires:		git
+BuildRequires:		make
 BuildRequires:		qmake-qt6
 BuildRequires:		qt6-qtbase-theme-gtk3
 BuildRequires:		cmake(Qt6)
