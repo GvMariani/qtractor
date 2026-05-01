@@ -15,6 +15,7 @@ BuildRequires:		qt6-qtbase-theme-gtk3
 BuildRequires:		cmake(Qt6)
 BuildRequires:		cmake(Qt6Core) >= 6.9
 BuildRequires:		cmake(Qt6LinguistTools)
+BuildRequires:		cmake(Qt6Network)
 BuildRequires:		cmake(Qt6Svg)
 BuildRequires:		cmake(Qt6Widgets)
 BuildRequires:		cmake(Qt6Xml)
