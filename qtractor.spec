@@ -1,6 +1,6 @@
 Summary:		An Audio/MIDI multi-track sequencer
 Name:	qtractor
-Version:		1.6.0
+Version:		1.6.2
 Release:		1
 License:		GPLv2+
 Group:	Sound
@@ -76,6 +76,8 @@ Audio Workstation GUI, specially dedicated to the personal home-studio.
 %prep
 %autosetup -p1
 
+# Fix FSF address
+sed -i 's/51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA/31 Milk Street, # 960789, Boston, MA 02196, USA/g' src/instruments/Standard1.ins
 
 %build
 %cmake \
